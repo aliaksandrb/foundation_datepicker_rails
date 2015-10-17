@@ -1,31 +1,31 @@
 // fdatepicker variables and their defaults
-//$fdatepicker-ui-primary: #2ba6cb !default;
-//$fdatepicker-ui-color: #000 !default;
-//$fdatepicker-ui-bg: #fff !default;
-//$fdatepicker-ui-disabled: #eee !default;
-//$fdatepicker-ui-border-color: #000 !default;
-//$fdatepicker-ui-border-transparency: 0.2 !default;
-//$fdatepicker-ui-border: 1px solid rgba($fdatepicker-ui-color, $fdatepicker-ui-border-transparency) !default;
-//$fdatepicker-ui-shadow: 0 5px 10px rgba($fdatepicker-ui-color, $fdatepicker-ui-border-transparency) !default;
-//$fdatepicker-ui-border-radius: 5px;
-//$fdatepicker-ui-before-color: #ccc !default;
-//$fdatepicker-ui-old-new-color: #999 !default;
-//$fdatepicker-ui-text-color: #333 !default;
-//$fdatepicker-inline-width: 220px !default;
+$fdatepicker-ui-primary: #2ba6cb !default;
+$fdatepicker-ui-color: #000 !default;
+$fdatepicker-ui-bg: #fff !default;
+$fdatepicker-ui-disabled: #eee !default;
+$fdatepicker-ui-border-color: #000 !default;
+$fdatepicker-ui-border-transparency: 0.2 !default;
+$fdatepicker-ui-border: 1px solid rgba($fdatepicker-ui-color, $fdatepicker-ui-border-transparency) !default;
+$fdatepicker-ui-shadow: 0 5px 10px rgba($fdatepicker-ui-color, $fdatepicker-ui-border-transparency) !default;
+$fdatepicker-ui-border-radius: 5px;
+$fdatepicker-ui-before-color: #ccc !default;
+$fdatepicker-ui-old-new-color: #999 !default;
+$fdatepicker-ui-text-color: #333 !default;
+$fdatepicker-inline-width: 220px !default;
 
 // uncomment if used with foundation 5 to get compatible defaults, thanks jamesstoneco
-$fdatepicker-ui-primary: $primary-color;
-$fdatepicker-ui-bg: $f-dropdown-bg;
-$fdatepicker-ui-text-color: $body-font-color;
-$fdatepicker-ui-disabled: rgba($primary-color, 0.7);
-$fdatepicker-ui-before-color: $secondary-color;
-$fdatepicker-ui-border-transparency: 0.2 !default;
-$fdatepicker-ui-border: $f-dropdown-border-style $f-dropdown-border-width $f-dropdown-border-color;
-$fdatepicker-ui-shadow: none;
-$fdatepicker-ui-border-radius: 0;
-$fdatepicker-ui-before-color: lighten($fdatepicker-ui-text-color, 30%);
-$fdatepicker-ui-old-new-color: lighten($fdatepicker-ui-text-color, 20%);
-$fdatepicker-inline-width: $f-dropdown-max-width;
+// $fdatepicker-ui-primary: $primary-color;
+// $fdatepicker-ui-bg: $f-dropdown-bg;
+// $fdatepicker-ui-text-color: $body-font-color;
+// $fdatepicker-ui-disabled: rgba($primary-color, 0.7);
+// $fdatepicker-ui-before-color: $secondary-color;
+// $fdatepicker-ui-border-transparency: 0.2 !default;
+// $fdatepicker-ui-border: $f-dropdown-border-style $f-dropdown-border-width $f-dropdown-border-color;
+// $fdatepicker-ui-shadow: none;
+// $fdatepicker-ui-border-radius: 0;
+// $fdatepicker-ui-before-color: lighten($fdatepicker-ui-text-color, 30%);
+// $fdatepicker-ui-old-new-color: lighten($fdatepicker-ui-text-color, 20%);
+// $fdatepicker-inline-width: $f-dropdown-max-width;
 
 @mixin datepicker() {
 	text-align: center;
