@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'foundation_datepicker_rails/version'
+require 'ffoundation_datepicker_rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ffoundation_datepicker_rails"
-  spec.version       = FoundationDatepickerRails::VERSION
+  spec.version       = FfoundationDatepickerRails::VERSION
   spec.authors       = ["Aliaksandr Buhayeu"]
   spec.email         = ["aliaksandr.buhayeu@gmail.com"]
   spec.summary       = %q{Packed actual version of foundation-datepicker plugin for Rails 3.1+ asset pipeline}
