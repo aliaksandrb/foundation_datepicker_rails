@@ -1,5 +1,6 @@
 require "foundation_datepicker_rails/version"
 
 module FoundationDatepickerRails
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
