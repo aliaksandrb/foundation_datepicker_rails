@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'foundation_datepicker_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "foundation_datepicker_rails"
+  spec.name          = "ffoundation_datepicker_rails"
   spec.version       = FoundationDatepickerRails::VERSION
   spec.authors       = ["Aliaksandr Buhayeu"]
   spec.email         = ["aliaksandr.buhayeu@gmail.com"]
